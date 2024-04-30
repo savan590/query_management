@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+}
+
+.main_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 30px;
+}
+.title{
+    color: bisque;
+    text-align: center;
+}
+.complaint{
+    gap: 10px;
+}
+.complaint-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    margin-left: 50px;
+    background-color: darkgray;
+    border-radius: 10px;
+    width: 25vw;
+}
+
+.complaint-container>div {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.complaint-container select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+.admin_logout {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
